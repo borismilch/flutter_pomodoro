@@ -128,7 +128,6 @@ class MyAppState extends ChangeNotifier {
   }
 
   void changeRoundDuration(ROUNDS roundKey, int value) {
-    print("$value value from durations");
     durations[roundKey] = value;
     notifyListeners();
   }
